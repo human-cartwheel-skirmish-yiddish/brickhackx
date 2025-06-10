@@ -1,0 +1,98 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #eceffc;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+/* Menu */
+
+#title--main {
+  color: #6d83e6;
+  text-align: center;
+  display: flex;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 5px;
+  display: flex;
+}
+
+button {
+  color: #c30211;
+  background-color: rgb(252, 252, 252);
+  font-size: 3rem;
+  border: 1px solid #c30211;
+  border-radius: 12px;
+
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  padding: 30px 50px;
+}
+
+button:hover {
+  background-color: #eaa1a7;
+  cursor: pointer;
+  color: white;
+}
+
+#container--menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: auto;
+
+}
+
+/* Game */
+
+#container--heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: auto;
+}
+
+#button--reset{
+    font-size: 2rem;
+    padding: 20px 40px;
+}
+
+table {
+  border: 1px solid black;
+  width: 60vw;
+  height: 60vh;
+  margin: 50px;
+}
+
+tr,
+td {
+  border: 1px solid black;
+}
+
+.hidden {
+  display: none;
+}
+
+.filled--vertical {
+  background-color: #aab7f2;
+}
+
+.filled--horizontal {
+  background: #c30211;
+}
